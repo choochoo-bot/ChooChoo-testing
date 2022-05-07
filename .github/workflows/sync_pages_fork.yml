@@ -30,6 +30,7 @@ jobs:
         target_repo_token: ${{ secrets.BOT_ACCESS_TOKEN }}
         upstream_sync_branch: main
         upstream_sync_repo: lucydot/choochoo-template
+        upstream_pull_args: --allow-unrelated-histories
       
     # Step 3: Display a sample message based on the sync output var 'has_new_commits'
     - name: New commits found
