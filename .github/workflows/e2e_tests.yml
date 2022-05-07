@@ -31,7 +31,7 @@ jobs:
       with:
         python-version: '3.x'
     - run: pip install https://github.com/lucydot/choochoo/archive/main.zip
-    - run: ${{ format('check_instructor peppapig', github.actor) }}
+    - run: ${{ format('check_instructor lucydot', github.actor) }}
     
   choochoo-cli-question-thread:
     runs-on: ubuntu-latest
@@ -76,6 +76,7 @@ jobs:
         message: 'question bank generated during workflow'
         
   choochoo-cli-student-thread:
+    needs: choochoo-cli-question-thread
     runs-on: ubuntu-latest
     env: 
       GH_TOKEN: ${{ secrets.BOT_ACCESS_TOKEN }}
