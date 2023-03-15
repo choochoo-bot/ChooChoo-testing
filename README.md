@@ -1,7 +1,5 @@
 <img src="https://github.com/lucydot/ChooChoo/raw/main/docs/images/icon2.png" width="800">
 
-⚠️ ChooChoo is currently under development. It has a planned release date of September 2022.        
-
 ✨ ChooChoo encourages learning through self-assessment, collaboration and diagnostic teaching. This repository contains an empty ChooChoo project for those who want to start from scratch. For more information please see the [ChooChoo documentation](https://lucydot.github.io/ChooChoo).
 
 ## Features
