@@ -1,8 +1,6 @@
 <img src="https://github.com/lucydot/ChooChoo/raw/main/docs/images/icon2.png" width="800">
 
-⚠️ ChooChoo is currently under development. It has a planned release date of September 2022.        
-
-✨ ChooChoo encourages learning through self-assessment, collaboration and diagnostic teaching. This repository contains an empty ChooChoo project for those who want to start from scratch. For more information please see the [ChooChoo documentation](https://lucydot.github.io/ChooChoo).
+✨ ChooChoo encourages learning through self-assessment, collaboration and diagnostic teaching. This is a repository for testing ChooChoo. For more information and to get started with using the tool please see the [ChooChoo repository](https://lucydot.github.io/ChooChoo).
 
 ## Features
 
@@ -25,5 +23,3 @@
 
 - 📊 Generate online plots to summarise class progress in real time
 
-
-**The Python package that powers ChooChoo can be found [here](https://github.com/lucydot/ChooChoo/).**
